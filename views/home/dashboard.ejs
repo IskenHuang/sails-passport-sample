@@ -1,0 +1,8 @@
+<div class="container clearfix content">
+    <% if(isAuth) { %>
+        <a href="/api/auth/logout"><%- i18n('logout') %></a>
+    <% }else{ %>
+        <a href="/signin"><%- i18n('signin') %></a>
+        <a href="/signup"><%- i18n('signup') %></a>
+    <% } %>
+</div>

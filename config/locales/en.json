@@ -1,3 +1,16 @@
 {
-  "Welcome": "Welcome"
+    "product_name": "Product",
+    "product_slogan": "Product slogan",
+    "signup": "Signup",
+    "signin": "Signin",
+    "logout": "Log out",
+    "contact_info": "Contact Info",
+    "email": "Email",
+    "social_facebook": "Facebook",
+    "social_twitter": "Twitter",
+    "social_google": "Google+",
+    "social_github": "Github",
+    "password": "password",
+    "auto_signin": "Auto signin",
+    "signin_view_title": "You can sign up with:"
 }

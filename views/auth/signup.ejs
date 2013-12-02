@@ -1,0 +1,31 @@
+<form class="form-horizontal" role="form" method="POST" action="/api/auth/signup">
+  <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label"></label>
+    <div class="col-lg-10">
+      <h1><%= i18n('signup') %></h1>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label"><%= i18n('email') %></label>
+    <div class="col-lg-10">
+      <input type="email" class="form-control" id="account" name="account" placeholder="<%= i18n('email') %>" />
+    </div>
+  </div>
+  <!-- <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label"><%= i18n('confirm_email') %></label>
+    <div class="col-lg-10">
+      <input type="email" class="form-control" id="confirm_email" name="confirm_email" placeholder="<%= i18n('confirm_email') %>" />
+    </div>
+  </div> -->
+  <div class="form-group">
+    <label for="inputPassword1" class="col-lg-2 control-label"><%= i18n('password') %></label>
+    <div class="col-lg-10">
+      <input type="password"  id="password" name="password" class="form-control" placeholder="<%= i18n('password') %>"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-lg-offset-2 col-lg-10">
+      <button type="submit" class="btn btn-default"><%= i18n('signup') %></button>
+    </div>
+  </div>
+</form>

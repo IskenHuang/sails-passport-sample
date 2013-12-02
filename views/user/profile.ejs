@@ -1,0 +1,21 @@
+<div class="containor">
+    <div class="row">
+        <div class="col-md-6">
+            <a href="/<%= user.urlName %>">
+                <img class="" src="<%= user.userImage %>" />
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a href="/<%= user.urlName %>">
+                <h1><%= user.firstName %> <%= user.lastName %></h1>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <% for(var i in slides) { %>
+            <div class="col-md-3">
+                <h1><%= slides[i].title %></h1>
+            </div>
+        <% } %>
+    </div>
+</div>
