@@ -1,8 +1,8 @@
 # sails.js passport sample
-- [sails.js - https://github.com/balderdashy/sails](https://github.com/balderdashy/sails)
-- [Passport - http://passportjs.org/](http://passportjs.org/)
+This sample integrated github and facebook account. Sails.js verison is v0.9.7.
 
-# how to ued
+
+# how to use
 - update config/passport.js clientID and clientSecret
 ```
 github: {
@@ -19,3 +19,7 @@ facebook: {
 
 - install package `npm install`
 - run it `node app`
+
+# links
+- [sails.js - https://github.com/balderdashy/sails](https://github.com/balderdashy/sails)
+- [Passport - http://passportjs.org/](http://passportjs.org/)
